@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T14:22:32-08:00",
-  "generated_at_label": "2:22 PM PT",
+  "generated_at": "2026-11-13T14:23:43-08:00",
+  "generated_at_label": "2:23 PM PT",
   "public_name": "The Agent Cup",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -23,7 +23,7 @@
   "luma_event_url": "https://luma.com/t2598jt6",
   "luma_event_api_id": "evt-gvUGFeqO4DBSmBt",
   "luma_ok": true,
-  "luma_error": "HTTPError: HTTP Error 502: Bad Gateway",
+  "luma_error": null,
   "checked_in_count": 0,
   "card_count": 46,
   "preview_count": 46,
