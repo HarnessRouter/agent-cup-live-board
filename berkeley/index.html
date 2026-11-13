@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0d0c0b">
+  <title>The Agent Cup · Live Problem Board</title>
+  <script>
+    (function () {
+      var p = location.pathname.replace(/\/index\.html$/, "").replace(/\/$/, "");
+      var m = p.match(/^(.*)\/(stanford|berkeley)$/);
+      var root = m ? (m[1] || "") + "/" : p.replace(/\/[^/]*$/, "/");
+      if (!root) root = "/";
+      var b = document.createElement("base");
+      b.href = root;
+      document.head.appendChild(b);
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1 id="title">The Agent Cup</h1>
+      <div class="meta" id="meta"></div>
+    </div>
+    <div class="badges">
+      <div class="badge" id="mode">Live</div>
+      <div class="badge count" id="count"></div>
+    </div>
+  </header>
+  <main class="deck" id="deck">
+    <div class="cards-col" id="cards"></div>
+    <aside class="qr-col">
+      <div class="qr-box" id="qr"></div>
+      <p>Scan to open this board on your phone</p>
+    </aside>
+  </main>
+  <nav class="dock" id="dock"></nav>
+  <script src="vendor/qrcode.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,644 @@
+{
+  "generated_at": "2026-11-13T10:16:52-08:00",
+  "generated_at_label": "10:16 AM PT",
+  "public_name": "The Agent Cup",
+  "community": "https://community.harnessrouter.ai",
+  "venues": {
+    "berkeley": {
+      "label": "Berkeley",
+      "venue": "Cal Alumni House, Toll Room",
+      "address": "1 Alumni House, Berkeley, CA 94720",
+      "when": "Sun Nov 15, 10:00 AM–1:00 PM PT",
+      "discord": "https://discord.gg/y8GsVZYtx"
+    },
+    "stanford": {
+      "label": "Stanford",
+      "venue": "Stanford Hillel",
+      "address": "",
+      "when": "Sun Nov 15, 2:30–6:30 PM PT",
+      "discord": "https://discord.gg/AG8QX3zTf"
+    }
+  },
+  "refresh_seconds": 60,
+  "luma_event_url": "https://luma.com/t2598jt6",
+  "luma_event_api_id": "evt-gvUGFeqO4DBSmBt",
+  "luma_ok": true,
+  "luma_error": null,
+  "checked_in_count": 0,
+  "card_count": 46,
+  "preview_count": 46,
+  "live_count": 0,
+  "skipped": {
+    "no_mapping": 0,
+    "excluded": 0,
+    "not_seeking": 42,
+    "full": 0,
+    "dup": 0
+  },
+  "cards": [
+    {
+      "id": "STAN-05",
+      "title": "Parallel Research Analysis Agents",
+      "one_line": "Use parallel agents to reproduce, cross-check, and stress-test data analyses in biomedicine and other data-heavy fields.",
+      "skills": "Data science, scientific computing, agent orchestration, statistics",
+      "seats_left": 2,
+      "owner_first_name": "Sofia",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Forming",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-07",
+      "title": "Aviation Workflow Automation",
+      "one_line": "Automate repetitive workflows for aviation companies.",
+      "skills": "Workflow automation, process mapping, full-stack, integrations",
+      "seats_left": 2,
+      "owner_first_name": "Kai",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Forming",
+      "checked_in": false
+    },
+    {
+      "id": "BOTH-01",
+      "title": "Shared Context Center",
+      "one_line": "A place that collects and organizes the context an agent or a team needs to work from.",
+      "skills": "Information retrieval, agent memory, backend, product",
+      "seats_left": 3,
+      "owner_first_name": "Andy",
+      "venues": [
+        "stanford",
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "BOTH-02",
+      "title": "Low-Cost B2B Sales Research Agent",
+      "one_line": "A sales research agent for small B2B teams that routes each step to the cheapest model that can do it well.",
+      "skills": "Agent routing, sales research, web data, cost optimization",
+      "seats_left": 3,
+      "owner_first_name": "Arya",
+      "venues": [
+        "stanford",
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "BOTH-09",
+      "title": "Inference-Cost Control for Startups",
+      "one_line": "Help software startups cut token and inference costs without giving up quality.",
+      "skills": "LLM routing, cost observability, backend, evaluation",
+      "seats_left": 3,
+      "owner_first_name": "Day",
+      "venues": [
+        "stanford",
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "BOTH-10",
+      "title": "Business Setup Assistant",
+      "one_line": "Help someone set up or formalize a business.",
+      "skills": "To be defined with the owner",
+      "seats_left": 3,
+      "owner_first_name": "Marwan",
+      "venues": [
+        "stanford",
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "BOTH-12",
+      "title": "Digital-Asset Education Project",
+      "one_line": "A community or consumer education project in the digital-asset space.",
+      "skills": "To be defined with the owner",
+      "seats_left": 3,
+      "owner_first_name": "Marcel",
+      "venues": [
+        "stanford",
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-02",
+      "title": "Fashion Discovery for Women",
+      "one_line": "Build a better way for women to find clothing that fits their style and needs.",
+      "skills": "Product design, consumer UX, recommendation systems, full-stack",
+      "seats_left": 3,
+      "owner_first_name": "Anushree",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-04",
+      "title": "LLM Reward-Hacking Monitor",
+      "one_line": "An open-source CLI that watches for reward hacking during LLM post-training.",
+      "skills": "ML / LLM post-training, evaluation metrics, Python CLI, open-source tooling",
+      "seats_left": 3,
+      "owner_first_name": "Mohid",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-06",
+      "title": "Employee Recognition and Pay System",
+      "one_line": "Help organizations reward strong work more fairly, on top of regular pay.",
+      "skills": "Full-system delivery, full-stack, data modeling, workflow design",
+      "seats_left": 3,
+      "owner_first_name": "Lorna",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-07",
+      "title": "Parking Sign Assistant",
+      "one_line": "Snap a photo of a confusing parking sign and find out if you can park, until when, and what nearby options cost.",
+      "skills": "Computer vision, mobile or web app, planning agents, maps / geo",
+      "seats_left": 3,
+      "owner_first_name": "Xingjian",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-08",
+      "title": "Robot Pilot Matching",
+      "one_line": "Match robot startups with real businesses that need automation, so each side gets a ready pilot.",
+      "skills": "Marketplace / product, robotics domain knowledge, operations, full-stack",
+      "seats_left": 3,
+      "owner_first_name": "Yunha",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-10",
+      "title": "Causal Inference Agent",
+      "one_line": "An agent that helps users answer cause-and-effect questions, not just correlations.",
+      "skills": "Causal inference / econometrics, data science, agent design",
+      "seats_left": 3,
+      "owner_first_name": "Tatz",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-13",
+      "title": "Agent Self-Augmentation",
+      "one_line": "Cyberpunk-style augmentations that let agents self-augment their skills and abilities, made for the agent economy.",
+      "skills": "Agent design, LLM tooling, product design",
+      "seats_left": 3,
+      "owner_first_name": "Aksh",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-14",
+      "title": "Workflow-Learning Agent",
+      "one_line": "An AI agent that learns repetitive business workflows by watching a user demonstrate them, instead of needing manual automation setup.",
+      "skills": "Agent design, browser/UI automation, LLM tooling, product design",
+      "seats_left": 3,
+      "owner_first_name": "Renzo",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-15",
+      "title": "Data Center Connectivity AI",
+      "one_line": "AI for physical connectivity in data centers.",
+      "skills": "",
+      "seats_left": 3,
+      "owner_first_name": "David",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-16",
+      "title": "Transportation Logistics Network",
+      "one_line": "An efficient logistics network for the transportation sector.",
+      "skills": "",
+      "seats_left": 3,
+      "owner_first_name": "Gursahib",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-18",
+      "title": "Preventive Breast-Health Companion",
+      "one_line": "An AI app for breast cancer prevention covering education, risk assessment, early-detection support, and timely follow-up with care.",
+      "skills": "AI/LLM apps, health-data handling, product design",
+      "seats_left": 3,
+      "owner_first_name": "Mahtab",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-19",
+      "title": "Workplace Policy Navigator Agent",
+      "one_line": "An AI agent that helps HR teams and employees navigate workplace policies and employee-support workflows.",
+      "skills": "LLM agents, retrieval, evaluation, product design",
+      "seats_left": 3,
+      "owner_first_name": "Jun",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-20",
+      "title": "Simulations (details needed)",
+      "one_line": "Owner's brief is one word: simulations.",
+      "skills": "",
+      "seats_left": 3,
+      "owner_first_name": "Talha",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-25",
+      "title": "Travel Agent (details needed)",
+      "one_line": "Owner's brief is two words: travel agent.",
+      "skills": "",
+      "seats_left": 3,
+      "owner_first_name": "Daniel",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-26",
+      "title": "Healthcare Prior-Authorization Agent",
+      "one_line": "A multi-agent system that automates healthcare prior authorization, from a doctor's order through submission, status tracking, and follow-ups.",
+      "skills": "LLM agents, healthcare workflows, document processing",
+      "seats_left": 3,
+      "owner_first_name": "Deepika",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "STAN-29",
+      "title": "Autonomous Company Operating System",
+      "one_line": "An autonomous company operating system built on HarnessRouter, where AI agents run everyday business operations like scheduling, reporting, and follow-ups with minimal human oversight.",
+      "skills": "LLM agents, workflow automation, product",
+      "seats_left": 3,
+      "owner_first_name": "Renchu",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-02",
+      "title": "Harness Comparison Tool",
+      "one_line": "Make it easier to compare different agent harnesses side by side.",
+      "skills": "Evaluation tooling, backend, developer UX",
+      "seats_left": 3,
+      "owner_first_name": "Aashish",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-03",
+      "title": "Physical-Agent Audit and Authorization",
+      "one_line": "Add identity, permission, and audit logging for robots and drones before they act in the real world.",
+      "skills": "Security and authorization, robotics, distributed systems, audit logging",
+      "seats_left": 3,
+      "owner_first_name": "Ajitesh",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-06",
+      "title": "Student Focus Tool",
+      "one_line": "Software that helps students improve their concentration.",
+      "skills": "Product design, mobile or web, behavioral design, full-stack",
+      "seats_left": 3,
+      "owner_first_name": "Jonas",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-08",
+      "title": "AI Spend Analyst",
+      "one_line": "Help companies tell which B2B AI tools are actually worth keeping.",
+      "skills": "Data integrations, analytics, operations / finance sense, agent tooling",
+      "seats_left": 3,
+      "owner_first_name": "Kevin",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-09",
+      "title": "Contractor Quote Follow-up Agent",
+      "one_line": "Revive unsigned remodeling and construction quotes and book site visits automatically.",
+      "skills": "Voice, SMS, and email agents; calendar integrations; CRM-style workflows; sales operations",
+      "seats_left": 3,
+      "owner_first_name": "Lucas",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-10",
+      "title": "AI Agent for Scientists",
+      "one_line": "An AI agent that helps scientists with day-to-day research work.",
+      "skills": "Scientific workflows, agents, data analysis, product",
+      "seats_left": 3,
+      "owner_first_name": "Maher",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-11",
+      "title": "Tools for Older Adults",
+      "one_line": "Build a product that makes everyday technology easier for older adults.",
+      "skills": "Inclusive UX, full-stack or mobile, user research, accessibility",
+      "seats_left": 3,
+      "owner_first_name": "Mohammed",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-12",
+      "title": "Student and Founder Idea-to-Build Tool",
+      "one_line": "Help students and early-stage founders turn an idea into something they can actually build.",
+      "skills": "Product, agent workflows, founder tooling, full-stack",
+      "seats_left": 3,
+      "owner_first_name": "Nimrit",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-13",
+      "title": "Rivalry-Week Persona App",
+      "one_line": "A fun campus-rivalry week app that playfully scores how much you seem like 'the other school.'",
+      "skills": "Consumer social product, agent orchestration, image or card generation, mobile or web",
+      "seats_left": 3,
+      "owner_first_name": "Paul",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-14",
+      "title": "Club Seating and Connection Bot",
+      "one_line": "Seat people at club meetings based on their answer to one unexpected question, then learn who they would like to see again.",
+      "skills": "Matching or clustering, conversational agents, lightweight web app, community product",
+      "seats_left": 3,
+      "owner_first_name": "Tony",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-19",
+      "title": "Sustainable-Growth Technology",
+      "one_line": "Use new technology to support more sustainable growth.",
+      "skills": "To be defined with the owner",
+      "seats_left": 3,
+      "owner_first_name": "Vasanth",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-22",
+      "title": "Founder Compliance and Validation Assistant",
+      "one_line": "Help founders stay focused on building, while an assistant covers regulatory and market-validation busywork.",
+      "skills": "Product, regulatory-research tooling, market-research agents, full-stack",
+      "seats_left": 3,
+      "owner_first_name": "Mark",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-25",
+      "title": "Startup Discovery Catalog",
+      "one_line": "A catalog that helps future founders and students find and compare startups.",
+      "skills": "Product design, catalogs / discovery, consumer UX, full-stack",
+      "seats_left": 3,
+      "owner_first_name": "Samuel",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-26",
+      "title": "Research Paper Agent",
+      "one_line": "An AI research agent that helps students and researchers find relevant papers, verify claims, and synthesize findings.",
+      "skills": "Information retrieval, research methods, LLM agents, evaluation",
+      "seats_left": 3,
+      "owner_first_name": "Oskar",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-27",
+      "title": "Live-Diagram Learning Interface",
+      "one_line": "An AI interface that helps you talk through a concept by drawing live diagrams as you speak.",
+      "skills": "UI / UX, real-time interfaces, diagram generation, LLM agents",
+      "seats_left": 3,
+      "owner_first_name": "Elijah",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-28",
+      "title": "Agent Workload Router",
+      "one_line": "An agent that routes workloads across models and hardware based on cost, latency, and reliability.",
+      "skills": "Systems / infra, model routing, cost and latency optimization, LLM agents",
+      "seats_left": 3,
+      "owner_first_name": "Justin",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-29",
+      "title": "Linux Security Framework",
+      "one_line": "A security framework idea for mainline Linux (original: 'CBPI / SUSPICIOUS-framework, for everyone/mainline linux').",
+      "skills": "",
+      "seats_left": 3,
+      "owner_first_name": "Jason",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-30",
+      "title": "Moving AI-Built Sites to Your Own Server",
+      "one_line": "Sites built on AI site-builder platforms hit backend bottlenecks when the site and its data must be migrated to another server.",
+      "skills": "Backend, deployment, data migration, LLM tooling",
+      "seats_left": 3,
+      "owner_first_name": "Ameer",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-31",
+      "title": "Bottleneck-Reduction Project (details needed)",
+      "one_line": "Owner wrote only that they want to reduce a bottleneck.",
+      "skills": "",
+      "seats_left": 3,
+      "owner_first_name": "AIAJ",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-32",
+      "title": "CUDA Auto-Optimization",
+      "one_line": "Owner wrote only: CUDA auto optimization.",
+      "skills": "",
+      "seats_left": 3,
+      "owner_first_name": "Adriano",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-33",
+      "title": "Women's Health Tech (details needed)",
+      "one_line": "Owner's brief is three words: healthtech, women's health.",
+      "skills": "",
+      "seats_left": 3,
+      "owner_first_name": "Lulu",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-34",
+      "title": "Undocumented Sites to Tested APIs",
+      "one_line": "An agent that turns any undocumented website, portal, or network trace into a tested, production-ready API service.",
+      "skills": "Backend/Python, scraping or reverse-engineering, testing, LLM agents",
+      "seats_left": 3,
+      "owner_first_name": "Catherine",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    },
+    {
+      "id": "UCB-35",
+      "title": "Personal Network CRM (details needed)",
+      "one_line": "Owner's brief is five words: CRM for personal network management.",
+      "skills": "",
+      "seats_left": 3,
+      "owner_first_name": "Madison",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "checked_in": false
+    }
+  ],
+  "sheet_snapshot": true
+}
