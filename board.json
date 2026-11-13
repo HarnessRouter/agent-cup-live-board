@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T11:54:33-08:00",
-  "generated_at_label": "11:54 AM PT",
+  "generated_at": "2026-11-13T11:55:39-08:00",
+  "generated_at_label": "11:55 AM PT",
   "public_name": "The Agent Cup",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -23,7 +23,7 @@
   "luma_event_url": "https://luma.com/t2598jt6",
   "luma_event_api_id": "evt-gvUGFeqO4DBSmBt",
   "luma_ok": true,
-  "luma_error": "TimeoutError: The read operation timed out",
+  "luma_error": null,
   "checked_in_count": 0,
   "card_count": 46,
   "preview_count": 46,
