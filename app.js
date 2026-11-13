@@ -113,7 +113,7 @@
 
   function render(data) {
     const v = venueInfo(data);
-    const name = data.public_name || "The Agent Cup";
+    const name = data.public_name || "The Big Hack Game";
     $("title").textContent = name + " · " + (v.label || prettyVenue(venue) || "Board");
     document.title = $("title").textContent + " · Problem Board";
     const bits = [v.venue, v.when, v.address].filter(Boolean);

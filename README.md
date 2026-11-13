@@ -1,1 +1,1 @@
-The Agent Cup live Problem Board (public frontend only; no emails or API keys).
+The Big Hack Game live Problem Board (public frontend only; no emails or API keys).
