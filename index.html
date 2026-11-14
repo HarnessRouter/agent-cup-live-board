@@ -2,40 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#0d0c0b">
+  <meta http-equiv="refresh" content="0; url=https://harnessrouter.github.io/big-hack-game-live/">
+  <link rel="canonical" href="https://harnessrouter.github.io/big-hack-game-live/">
   <title>The Big Hack Game · Live Problem Board</title>
-  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      var dest = "https://harnessrouter.github.io/big-hack-game-live";
+      var path = location.pathname.replace(/^\/agent-cup-live-board/, "") || "/";
+      if (path.charAt(0) !== "/") path = "/" + path;
+      location.replace(dest + path + location.search + location.hash);
+    })();
+  </script>
 </head>
 <body>
-  <main class="home">
-    <div class="eyebrow">The Big Hack Game · Stanford vs Berkeley</div>
-    <h1>Live Problem Board</h1>
-    <p class="lede">Problems looking for teammates. On Sunday, only cards whose owner has checked in at the door are shown. Use Preview now — nobody has checked in yet.</p>
-    <div class="venue-grid">
-      <a class="venue-card" href="berkeley/">
-        <div><span class="campus-dot berkeley"></span>Berkeley kickoff</div>
-        <h2>Cal Alumni House</h2>
-        <p>Toll Room · Sun Nov 15, 10:00 AM–1:00 PM PT<br>1 Alumni House, Berkeley, CA 94720</p>
-        <div class="go">Open live board →</div>
-      </a>
-      <a class="venue-card" href="stanford/">
-        <div><span class="campus-dot stanford"></span>Stanford kickoff</div>
-        <h2>Stanford Hillel</h2>
-        <p>Sun Nov 15, 2:30–6:30 PM PT</p>
-        <div class="go">Open live board →</div>
-      </a>
-    </div>
-    <div class="home-links">
-      <a href="berkeley/?preview=1">Berkeley preview</a>
-      <a href="stanford/?preview=1">Stanford preview</a>
-      <a href="berkeley/?screen=1">Berkeley big screen</a>
-      <a href="stanford/?screen=1">Stanford big screen</a>
-      <a href="berkeley/?preview=1&amp;screen=1">Berkeley screen preview</a>
-      <a href="stanford/?preview=1&amp;screen=1">Stanford screen preview</a>
-      <a href="https://community.harnessrouter.ai" target="_blank" rel="noopener">Community</a>
-    </div>
-    <p class="note">Live mode hides a card once the team is full, and only shows Owner seeking or Forming cards with seats left. Organizers are not listed as participants.</p>
-  </main>
+  <p>This board has moved to <a href="https://harnessrouter.github.io/big-hack-game-live/">https://harnessrouter.github.io/big-hack-game-live/</a>.</p>
 </body>
 </html>
